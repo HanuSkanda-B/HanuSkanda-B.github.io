@@ -88,15 +88,20 @@
       border-radius: 50%;
       object-fit: cover;
       border: 3px solid var(--accent-light);
+      disply: block;
     }
     .hero-photo .photo-placeholder {
-      width: 120px; height: 120px;
+      flex-shrink: 0;
+      width: 140px; height: 140px;
       border-radius: 50%;
       background: var(--accent-light);
       border: 3px solid var(--accent);
-      display: flex; align-items: center; justify-content: center;
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
       font-family: 'DM Serif Display', serif;
       font-size: 2rem; color: var(--accent);
+      overflow: hidden;
     }
     .hero-info h1 {
       font-family: 'DM Serif Display', serif;
